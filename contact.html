@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melia-Restaurant/Contact</title>
+    <link rel="icon" href="img/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Exo+2:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="img/logo.png" alt="Melia Restaurant Logo" />
+      </div>
+
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <span id="cart-icon">
+            <img src="img/pasket.png" alt="cart list" />
+          </span>
+          <button class="header-order-btn">Order Now</button>
+        </nav>
+      </div>
+
+      <!-- Hamburger Checkbox -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <svg
+          class="hamburger-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 640"
+        >
+          <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            fill="#191919"
+            d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"
+          />
+        </svg>
+
+        <svg
+          class="close-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 640"
+        >
+          <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            fill="#191919"
+            d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"
+          />
+        </svg>
+      </label>
+      <!-- Mobile Nav -->
+      <div class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <button class="header-order-btn">Order Now</button>
+      </div>
+    </header>
+
+    <main class="contact-page">
+      <form>
+        <h1>SUBMIT A REQUEST</h1>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <h2>Subject</h2>
+        <div class="select">
+          <div class="breakfast">
+            <input type="checkbox" />
+            <label for="breakfast">Breakfast</label>
+          </div>
+          <div class="launch">
+            <input type="checkbox" />
+            <label for="launch">Launch</label>
+          </div>
+          <div class="dinner">
+            <input type="checkbox" />
+            <label for="dinner">Dinner</label>
+          </div>
+        </div>
+        <textarea rows="10" placeholder="Write your message"></textarea>
+        <div class="send-btn">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.90946661117866!2d106.81627511779955!3d-6.190720329060029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69dbf3077c5%3A0x617afe28c3769a0f!2sKebon%20Kacang%2C%20Tanah%20Abang%2C%20Central%20Jakarta%20City%2C%20Jakarta%2C%20Indonesia!5e0!3m2!1sen!2sso!4v1758737084133!5m2!1sen!2sso"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-left">
+        <div class="logo-text">
+          <img src="img/logo.png" alt="Restaurant Logo" />
+          <div>
+            <h2>Melia Rest</h2>
+            <span>Restaurant</span>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">Why Melia Rest?</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col get-in-touch">
+          <h4>Get in Touch</h4>
+          <p>Question or Quary?</p>
+          <p>We are here!</p>
+          <button class="send-email-btn">Send Email</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
