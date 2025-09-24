@@ -995,6 +995,12 @@ footer {
   margin: auto;
 }
 
+.menu-list h2{
+  font-family: 'Raleaway', san-serif;
+  padding: 20px 0;
+  color: var(--primary-color);
+}
+
 /* contact */
 
 .contact-page{
